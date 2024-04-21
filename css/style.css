@@ -1,0 +1,208 @@
+@charset 'utf-8';
+/* custom css file made by JeanDoe*/
+
+/*variables*/
+:root{
+/*	--light-bg: #ada;*/
+	--light-bg: #efe;
+	--white: #fff;
+	--black: #1a1b1c;
+	--light-clr: #888;
+	
+	--big-fsz: 1.2rem;
+	--normal-fsz: .938rem;
+	--small-fsz: .813rem;
+	--smaller-fsz: .75rem;
+}
+
+
+/*Initialisation*/
+
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+html{
+	scroll-behavior: smooth;
+	font-size: 90%;
+}
+
+body{
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: var(--normal-fsz);
+	background: var(--light-bg);
+}
+
+section{
+	padding: 1rem;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+
+
+/*palette section*/
+
+.palette{
+	background: var(--white);
+	border-radius: .25rem;
+	margin-top: 2rem;
+	box-shadow:  0 0 .5rem .2rem rgba(0, 0, 0, .1);
+}
+
+.heading{
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 1rem;
+	color: var(--black);
+}
+
+.palette .colors{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 5rem);
+	justify-content: center;
+	gap: .5rem;
+}
+
+.colors .color .title{
+	color: var(--light-clr);
+	letter-spacing: 1px;
+	font-size: var(--small-fsz);
+	text-align: center;
+	padding: .5rem .75rem;
+	background: var(--light-bg);
+	margin-bottom: .5rem;
+	border-radius: .25rem;
+}
+
+.colors .color .preview{
+	width: 100%;
+	height: 4rem;
+	border-radius: .25rem;
+	border: 1px solid var(--light-clr);
+}
+
+.colors .color:nth-child(1) .preview{
+	background: #5f2a3b;
+}
+
+.colors .color:nth-child(2) .preview{
+	background: rosybrown;
+}
+
+.colors .color:nth-child(3) .preview{
+	background: saddlebrown;
+}
+
+.colors .color:nth-child(4) .preview{
+	background: burlywood;
+}
+
+.colors .color:nth-child(5) .preview{
+	background: cadetblue;
+}
+
+.colors .color:nth-child(6) .preview{
+	background: coral;
+}
+
+.colors .color:nth-child(7) .preview{
+	background: cornsilk;
+}
+
+.colors .color:nth-child(8) .preview{
+	background: crimson;
+}
+
+.colors .color:nth-child(9) .preview{
+	background: bisque;
+}
+
+.colors .color:nth-child(10) .preview{
+	background: darkkhak;
+}
+
+.colors .color:nth-child(11) .preview{
+	background: darkgoldenrod;
+}
+
+.colors .color:nth-child(12) .preview{
+	background: darkgray;
+}
+
+.colors .color:nth-child(13) .preview{
+	background: cornflowerblue;
+}
+
+.colors .color:nth-child(14) .preview{
+	background: darkmagenta;
+}
+
+.colors .color:nth-child(15) .preview{
+	background: darksalmon;
+}
+.colors .color:nth-child(16) .preview{
+	background: darkolivegreen;
+}
+.colors .color:nth-child(17) .preview{
+	background: lightyellow;
+}
+.colors .color:nth-child(18) .preview{
+	background: #54198b;
+}
+.colors .color:nth-child(19) .preview{
+	background: #8e44ad;
+}
+.colors .color:nth-child(20) .preview{
+	background: #f34d4d;
+}
+.colors .color:nth-child(21) .preview{
+	background: #1a1b1c;
+}
+.colors .color:nth-child(22) .preview{
+	background: #ada;
+}
+.colors .color:nth-child(23) .preview{
+	background: #7a7b7c;
+}
+.colors .color:nth-child(24) .preview{
+	background: #131416;
+}
+.colors .color:nth-child(25) .preview{
+	background: #f5f8ff;
+}
+.colors .color:nth-child(26) .preview{
+	background: #f9f9f9;
+}
+
+
+
+/*
+top colors
+rosybrown
+saddlebrown
+burlywood
+cadetblue
+coral
+cornsilk
+crimson
+bisque
+darkkhak
+darkgoldenrod
+darkgray
+cornflowerblue
+darkmagenta
+darksalmon
+darkolivegreen
+lightyellow
+*/
+
+
+
+
+
